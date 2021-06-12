@@ -26,3 +26,18 @@ app.listen(port,()=>{
 // }
 
 // console.log(JSON.stringify(pet));
+
+// const Task = require('./models/task');
+// const User = require('./models/user');
+
+// const main = async () => {
+//     // const task = await Task.findById('60bf1f8cfc91f41cd0406963');
+//     // await task.populate('owner').execPopulate();
+//     // console.log(task);
+
+//     const user = await User.findById('60bf05131b6a551788a71f5c');
+//     await user.populate('tasks').execPopulate();
+//     console.log(user.tasks);
+// }
+
+// main();
